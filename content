@@ -85,9 +85,9 @@ Security Considerations
 -----------------------
 
 
-There a many parameters against tampering, i. e. the efg Parameter.
-The temporal aspect of an image is also taken care of by introducing 
-the oh and oe parameters to prevent the time sensitive aspect of the attack.
+There a many parameters against tampering, e.g. the efg Parameter.
+The temporal aspect of the GET request is addressed by introducing 
+the oh and oe parameters, which mitigate time-sensitive (replay) attacks.
 
 
 Decoding of the efg Parameter
